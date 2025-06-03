@@ -50,3 +50,22 @@ veg.forEach((li,index)=>{
 vegetables.style.display="flex"
 vegetables.style.justifyContent="space-between"
 vegetables.style.marginTop ="50px"
+
+const button = document.getElementById("button");
+button.style.border='none';
+button.style.borderRadius='20px';
+button.style.backgroundColor= "rgb(164, 236, 164)";
+button.style.padding="20px";
+button.style.width="240px";
+button.style.fontSize="25px"
+button.style.cursor="pointer";
+button.addEventListener('click',()=>{
+  button.textContent="Go Down";
+  button.style.backgroundColor= "rgb(215, 243, 215)"
+})
+button.addEventListener('click', function() {
+  window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: 'smooth' 
+  });
+});
