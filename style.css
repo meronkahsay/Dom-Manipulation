@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family:monospace;
+}
+.h1-bg{
+      background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Images/top-view-copy-space-colored-bell-peppers-with-broccoli-wooden-background.jpg);
+      padding: 15%;
+      text-align: center;
+      background-size: cover;
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+    font-size: 120px;
+  
+  
+}
+
+.veg-img,.fruit-img{
+    display: block;
+    padding-top: 6%;
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 70px;
+    cursor: pointer;
+
+}
+footer{
+    color: green;
+  text-align: center;
+}
